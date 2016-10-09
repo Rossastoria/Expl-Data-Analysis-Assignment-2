@@ -6,4 +6,4 @@
 > NEIVehicle <- NEI[NEI$SCC %in% SCCVehicle,]                             ## subset vehicles from NEI data
 
   ## -- Subset out emissions from LA County and Baltimore
-> NEIVehBaltLA <- subset(NEIVehicle, fips == "24510")
+> NEIVehBalt <- subset(NEIVehicle, fips == "24510")
